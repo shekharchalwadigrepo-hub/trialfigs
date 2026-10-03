@@ -23,6 +23,6 @@ export(cox_hr)
 
 import(ggplot2)
 importFrom(survival, survfit, survdiff, Surv, coxph)
-importFrom(stats, complete.cases, pchisq, rexp, rnorm, runif, rbinom, setNames, na.omit, median, qnorm, ave, sd, reshape, relevel)
+importFrom(stats, complete.cases, pchisq, rexp, rnorm, runif, rbinom, setNames, na.omit, median, qnorm, ave, sd, reshape, relevel, aggregate)
 importFrom(grDevices, hcl.colors)
 importFrom(withr, with_seed)
