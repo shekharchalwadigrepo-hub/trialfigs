@@ -25,3 +25,4 @@ Config/testthat/edition: 3
 Language: en-US
 URL: https://github.com/shekharchalwadigrepo-hub/trialfigs
 BugReports: https://github.com/shekharchalwadigrepo-hub/trialfigs/issues
+RoxygenNote: 7.3.2
