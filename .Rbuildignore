@@ -5,3 +5,4 @@
 ^.*\.zip$
 ^cran-comments\.md$
 ^CONTRIBUTING\.md$
+^LICENSE\.md$
