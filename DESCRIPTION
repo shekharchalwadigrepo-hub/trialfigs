@@ -1,0 +1,27 @@
+Package: trialfigs
+Title: Efficacy and Safety Graphics for Clinical Review Packages
+Version: 0.1.0
+Authors@R: person("Shekhar", email = "skrchalwadicg@gmail.com", role = c("aut", "cre"))
+Description: Builds submission-style efficacy and safety figures used in
+    clinical review packages, with one simulator for each therapeutic area.
+    Oncology figures include Kaplan-Meier curves, RECIST waterfalls, swimmer
+    plots and spider plots. Cardiovascular, endocrine, immunology, infectious
+    disease and neuroscience figures include time-to-event curves, mean change
+    from baseline and responder rates. Shared safety figures include an
+    adverse-event dot plot, an eDISH liver plot, a laboratory shift plot and
+    an exposure plot. Reference lines follow RECIST 1.1 and the FDA
+    drug-induced liver injury guidance. This is not an FDA product and does
+    not guarantee regulatory acceptance.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports:
+    ggplot2,
+    survival,
+    withr
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+URL: https://github.com/shekharchalwadigrepo-hub/trialfigs
+BugReports: https://github.com/shekharchalwadigrepo-hub/trialfigs/issues

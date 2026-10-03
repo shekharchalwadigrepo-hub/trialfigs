@@ -1,0 +1,21 @@
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+name: R-CMD-check
+
+jobs:
+  R-CMD-check:
+    runs-on: ubuntu-latest
+    container:
+      image: rocker/r-ver:4.4.1
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install system dependencies
+        run: apt-get update && apt-get install -y --no-install-recommends libcurl4-openssl-dev libssl-dev libxml2-dev
+      - name: Install R packages
+        run: Rscript -e 'install.packages(c("ggplot2","survival","rcmdcheck"), repos = "https://cloud.r-project.org")'
+      - name: Check
+        run: Rscript -e 'rcmdcheck::rcmdcheck(args = c("--no-manual","--as-cran"), error_on = "warning")'

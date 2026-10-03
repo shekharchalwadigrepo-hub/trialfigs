@@ -1,0 +1,7 @@
+^trialfigs\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^inst/examples/figures$
+^.*\.zip$
+^cran-comments\.md$
+^CONTRIBUTING\.md$
