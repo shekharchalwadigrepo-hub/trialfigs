@@ -26,3 +26,4 @@ Language: en-US
 URL: https://github.com/shekharchalwadigrepo-hub/trialfigs, https://shekharchalwadigrepo-hub.github.io/trialfigs/
 BugReports: https://github.com/shekharchalwadigrepo-hub/trialfigs/issues
 RoxygenNote: 7.3.2
+Config/Needs/website: rmarkdown
