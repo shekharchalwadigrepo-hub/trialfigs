@@ -210,3 +210,8 @@ source("inst/examples/run_all.R")
   [`trialfigs-package`](https://shekharchalwadigrepo-hub.github.io/trialfigs/reference/trialfigs-package.md)
   : Efficacy and safety graphics for clinical review packages
 
+# Articles
+
+### All vignettes
+
+- [Gallery](https://shekharchalwadigrepo-hub.github.io/trialfigs/articles/gallery.md):
