@@ -124,18 +124,6 @@ trialfigs/
   inst/examples/           runnable review-style scripts
 ```
 
-## Put it on GitHub
-
-```bash
-cd trialfigs
-git init
-git add .
-git commit -m "Initial trialfigs package"
-gh repo create trialfigs --public --source=. --remote=origin --push
-```
-
-Replace `YOURUSER` in `DESCRIPTION` and in the install snippet above.
-
 ## Conventions worth keeping
 
 - Population in the caption (ITT, safety, virologic), not only in a footnote nobody reads.
